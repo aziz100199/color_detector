@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_ac2.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\main_ac2.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maino.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\activity_maino.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_text_detector.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\activity_text_detector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_object_detection.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\activity_object_detection.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_live_location.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\activity_live_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_texttospeech.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\activity_texttospeech.xml"
+    },
+    {
+        "merged": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\info_bottom_sheet.xml",
+        "source": "C:\\Users\\EliteBook\\Downloads\\Compressed\\ColorDectectorApp\\app\\src\\main\\res\\layout\\info_bottom_sheet.xml"
+    }
+]

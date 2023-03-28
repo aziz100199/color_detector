@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.tensorflow.lite.examples.objectdetection"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml
+11    <!-- Enable instant app support -->
+12    <dist:module dist:instant="true" /> <!-- Declare features -->
+12-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:7:5-40
+12-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:7:18-37
+13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
+13-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:8:5-60
+13-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:8:19-57
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:9:5-65
+14-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:9:22-62
+15
+16    <uses-feature android:name="android.hardware.camera.autofocus" />
+16-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:11:5-70
+16-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:11:19-67
+17
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:14:5-79
+19-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:15:5-67
+20-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:16:5-79
+21-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:17:5-76
+22-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:17:22-73
+23    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+23-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:18:5-85
+23-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:18:22-82
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\3e82401cd0366006c981f706643da442\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\3e82401cd0366006c981f706643da442\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\3e82401cd0366006c981f706643da442\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+31
+32    <application
+32-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:20:5-83:19
+33        android:allowBackup="true"
+33-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:21:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.6.0] C:\Users\EliteBook\.gradle\caches\transforms-3\b3c17df0befaa4982e33952ca8896802\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+36-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:22:9-43
+37        android:label="@string/app_name"
+37-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:23:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:24:9-54
+39        android:taskAffinity=""
+39-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:25:9-32
+40        android:testOnly="true" >
+41        <activity
+41-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:27:9-37:20
+42            android:name="com.note.colordetext.activities.ColorActivity"
+42-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:28:13-73
+43            android:exported="false"
+43-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:29:13-37
+44            android:theme="@style/colorTheme" >
+44-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:30:13-46
+45
+46            <!--
+47            <intent-filter>
+48                <action android:name="android.intent.action.MAIN" />
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+51            </intent-filter>
+52            -->
+53        </activity>
+54        <activity
+54-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:38:9-44:20
+55            android:name="org.tensorflow.lite.examples.objectdetection.texttospeech.texttospeech"
+55-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:39:13-54
+56            android:theme="@style/AppTheme" >
+56-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:40:13-44
+57            <meta-data
+57-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:41:13-43:36
+58                android:name="android.app.lib_name"
+58-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:42:17-52
+59                android:value="" />
+59-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:43:17-33
+60        </activity>
+61        <activity
+61-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:45:9-65:20
+62            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
+62-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:46:13-41
+63            android:clearTaskOnLaunch="true"
+63-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:47:13-45
+64            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
+64-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:48:13-91
+65            android:exported="true"
+65-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:49:13-36
+66            android:icon="@mipmap/ic_launcher"
+66-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:50:13-47
+67            android:resizeableActivity="true"
+67-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:51:13-46
+68            android:rotationAnimation="seamless"
+68-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:52:13-49
+69            android:theme="@style/AppTheme" >
+69-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:53:13-44
+70
+71            <!-- Main app intent filter -->
+72            <intent-filter>
+72-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:57:11-60:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:58:17-69
+73-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:58:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:59:17-77
+75-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:59:27-74
+76            </intent-filter>
+77            <!-- Declare notch support -->
+78            <meta-data
+78-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:62:13-64:40
+79                android:name="android.notch_support"
+79-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:63:17-53
+80                android:value="true" />
+80-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:64:17-37
+81        </activity>
+82        <activity
+82-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:66:9-69:47
+83            android:name="org.tensorflow.lite.examples.objectdetection.locationandtextdetect.LiveLocationActivity"
+83-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:67:13-71
+84            android:screenOrientation="portrait"
+84-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:68:13-49
+85            android:theme="@style/AppTheme" />
+85-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:69:13-44
+86        <activity
+86-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:70:9-73:47
+87            android:name="org.tensorflow.lite.examples.objectdetection.locationandtextdetect.TextDetectorActivity"
+87-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:71:13-71
+88            android:exported="true"
+88-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:72:13-36
+89            android:theme="@style/AppTheme" /> <!-- Maps -->
+89-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:73:13-44
+90        <meta-data
+90-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:74:9-76:55
+91            android:name="com.google.android.geo.API_KEY"
+91-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:75:13-58
+92            android:value="@string/google_maps_key" />
+92-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:76:13-52
+93        <meta-data
+93-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:77:9-79:52
+94            android:name="com.here.android.maps.appid"
+94-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:78:13-55
+95            android:value="r5oVXgaaSqnhWtqsuMMc" />
+95-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:79:13-49
+96        <meta-data
+96-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:80:9-82:54
+97            android:name="com.here.android.maps.apptoken"
+97-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:81:13-58
+98            android:value="Pv-_XkZ7CsE9EJn5W1Ahcg" />
+98-->C:\Users\EliteBook\Downloads\Compressed\ColorDectectorApp\app\src\main\AndroidManifest.xml:82:13-51
+99
+100        <uses-library
+100-->[androidx.window:window:1.0.0-alpha09] C:\Users\EliteBook\.gradle\caches\transforms-3\bbfcbc4de30f97fe0cd077e9050fad57\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
+101            android:name="androidx.window.extensions"
+101-->[androidx.window:window:1.0.0-alpha09] C:\Users\EliteBook\.gradle\caches\transforms-3\bbfcbc4de30f97fe0cd077e9050fad57\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:26:13-54
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-alpha09] C:\Users\EliteBook\.gradle\caches\transforms-3\bbfcbc4de30f97fe0cd077e9050fad57\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:27:13-37
+103        <uses-library
+103-->[androidx.window:window:1.0.0-alpha09] C:\Users\EliteBook\.gradle\caches\transforms-3\bbfcbc4de30f97fe0cd077e9050fad57\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:28:9-30:40
+104            android:name="androidx.window.sidecar"
+104-->[androidx.window:window:1.0.0-alpha09] C:\Users\EliteBook\.gradle\caches\transforms-3\bbfcbc4de30f97fe0cd077e9050fad57\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:29:13-51
+105            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+105-->[androidx.window:window:1.0.0-alpha09] C:\Users\EliteBook\.gradle\caches\transforms-3\bbfcbc4de30f97fe0cd077e9050fad57\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:30:13-37
+106        <uses-library
+106-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\3e82401cd0366006c981f706643da442\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+107            android:name="org.apache.http.legacy"
+107-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\3e82401cd0366006c981f706643da442\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+108            android:required="false" />
+108-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\EliteBook\.gradle\caches\transforms-3\3e82401cd0366006c981f706643da442\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+109
+110        <service
+110-->[androidx.room:room-runtime:2.2.5] C:\Users\EliteBook\.gradle\caches\transforms-3\3fe6b193139644cb105e5e0aa1b03604\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+111            android:name="androidx.room.MultiInstanceInvalidationService"
+111-->[androidx.room:room-runtime:2.2.5] C:\Users\EliteBook\.gradle\caches\transforms-3\3fe6b193139644cb105e5e0aa1b03604\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+112            android:directBootAware="true"
+112-->[androidx.room:room-runtime:2.2.5] C:\Users\EliteBook\.gradle\caches\transforms-3\3fe6b193139644cb105e5e0aa1b03604\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+113            android:exported="false" />
+113-->[androidx.room:room-runtime:2.2.5] C:\Users\EliteBook\.gradle\caches\transforms-3\3fe6b193139644cb105e5e0aa1b03604\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+114        <service
+114-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:26:9-35:19
+115            android:name="androidx.camera.core.impl.MetadataHolderService"
+115-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:27:13-75
+116            android:enabled="false"
+116-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:28:13-36
+117            android:exported="false" >
+117-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:29:13-37
+118            <meta-data
+118-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:32:13-34:89
+119                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+119-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:33:17-103
+120                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+120-->[androidx.camera:camera-camera2:1.1.0-beta03] C:\Users\EliteBook\.gradle\caches\transforms-3\fb641d7c78a89709ab17122577adad96\transformed\jetified-camera-camera2-1.1.0-beta03\AndroidManifest.xml:34:17-86
+121        </service>
+122
+123        <activity
+123-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7ef22cad9bdd09265b28fbe955d348b3\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+124-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7ef22cad9bdd09265b28fbe955d348b3\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+125            android:exported="false"
+125-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7ef22cad9bdd09265b28fbe955d348b3\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+126-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7ef22cad9bdd09265b28fbe955d348b3\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7c5ae313eea5db14603f20c3395ee09d\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7c5ae313eea5db14603f20c3395ee09d\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\EliteBook\.gradle\caches\transforms-3\7c5ae313eea5db14603f20c3395ee09d\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+131
+132        <provider
+132-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d08adc2d767a2d62b684c64b99941917\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+133            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+133-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d08adc2d767a2d62b684c64b99941917\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+134            android:authorities="org.tensorflow.lite.examples.objectdetection.lifecycle-process"
+134-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d08adc2d767a2d62b684c64b99941917\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+135            android:exported="false"
+135-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d08adc2d767a2d62b684c64b99941917\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+136            android:multiprocess="true" />
+136-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\EliteBook\.gradle\caches\transforms-3\d08adc2d767a2d62b684c64b99941917\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+137    </application>
+138
+139</manifest>
